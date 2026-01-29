@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Robot Delivery Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+<h1>🤖 Robot Delivery Simulation</h1>
+
+
+<div id="controls">
+  <button id="startBtn">Start Simulation</button>
+  <button id="compareBtn">Compare Robots</button>
+  <button id="smartBtn">🧠 Smart Mode: ON</button>
+
+</div>
+
+<div id="result"></div>
+
+<div id="map-wrapper">
+  <svg id="roads"></svg>
+  <div id="places"></div>
+  <div id="parcels"></div>
+
+</div>
+<div class="speed-control">
+  🚀 Fast
+  
+  <input type="range" id="speedSlider" min="200" max="1500" value="700">
+  🐢 Slow
+</div>
+<!-- <div class="speed-control">
+  🐢 Slow
+  <input type="range" id="speedSlider" min="1500" max="200" value="700">
+  🚀 Fast
+</div> -->
+
+
+<div id="log"></div>
+
+
+   
+<script src="app.js"></script>
+</body>
+</html>
